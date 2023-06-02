@@ -1,0 +1,86 @@
+[
+    {
+      "id" : "1.1",
+      "name" : "Basic Engineering",
+      "path" : ",1,",
+      "weightage" : 20,
+      "children" : [
+        "1.1.1",
+        "1.1.2",
+        "1.1.3",
+        "1.1.4"
+      ],
+      "parent" : "1"
+    },
+    {
+      "id" : "1.1.1",
+      "name" : "Appointment of AEC & Finalization of Project Requirement",
+      "path" : ",1,1.1,",
+      "weightage" : 10,
+      "parent" : "1.1"
+    },
+    {
+      "id" : "1.1.2",
+      "name" : "Master Planning & Design Concept ",
+      "path" : ",1,1.1,",
+      "weightage" : 60,
+      "parent" : "1.1"
+    },
+    {
+      "id" : "1.1.3",
+      "name" : "Design Basis Report",
+      "path" : ",1,1.1,",
+      "weightage" : 25,
+      "parent" : "1.1"
+    },
+    {
+      "id" : "1.1.4",
+      "name" : "Detailed Project Report",
+      "path" : ",1,1.1,",
+      "weightage" : 5,
+      "parent" : "1.1"
+    },
+    {
+      "id" : "1.2",
+      "name" : "Detailed Engineering",
+      "path" : ",1,",
+      "weightage" : 80,
+      "children" : [
+        "1.2.1",
+        "1.2.2"
+      ],
+      "parent" : "1"
+    },
+    {
+      "id" : "1.2.1",
+      "name" : "Preparation of Technical Part of Tenders",
+      "path" : ",1,1.2,",
+      "weightage" : 40,
+      "children" : [
+        "1.2.1.1",
+        "1.2.1.2"
+      ],
+      "parent" : "1.2"
+    },
+    {
+      "id" : "1.2.1.1",
+      "name" : "Tender for appointment of Building Construction Agency (BCA",
+      "path" : ",1,1.2,1.2.1,",
+      "weightage" : 40,
+      "parent" : "1.2.1"
+    },
+    {
+      "id" : "1.2.1.2",
+      "name" : "Tender for appointment of Data Centre Development Agency (DCDA",
+      "path" : ",1,1.2,1,2,1,",
+      "weightage" : 60,
+      "parent" : "1.2.1"
+    },
+    {
+      "id" : "1.2.2",
+      "name" : "Issue of GFC Drawings",
+      "path" : ",1,1.2,",
+      "weightage" : 60,
+      "parent" : "1.2"
+    }
+]
